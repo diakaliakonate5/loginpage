@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULAIRE DE CONNEXION</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="center">
+  <div class="img"> <img src="2.gif" width="150px" height="150px" alt=""></div>
+ 
+  <form method="post">
+    <div class="champtxt">
+      <input type="email"   
+      pattern=".+@kalanso.com" size="30" required>
+      <span></span>
+      <label>Adresse mail</label>
+    </div>
+    <div class="champtxt">
+      <input type="password" pattern="(?=.*\d)(?=.*[a-z]).{8}" maxlenght="8" required>
+      <span></span>
+      <label>Mot de passe</label>
+    </div>
+    <div class="pass">mot de passe oublié?<a href="">Reinitialiser</a></div>
+    <input type="submit" value="CONNEXION">
+    <div class="signup_link">
+      vous n'etes pas membre? <a href="#">s'inscrire</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
